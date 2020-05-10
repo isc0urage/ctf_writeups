@@ -1,0 +1,40 @@
+#background{
+	background-color: #d1d1d1;
+	margin-left: 13%;
+	margin-right: 13%;
+	margin-top: 3%;
+	margin-bottom: 0%;
+	-webkit-box-shadow: 8px 20px 71px 19px rgba(0,0,0,1);
+	-moz-box-shadow: 8px 20px 71px 19px rgba(0,0,0,1);
+	box-shadow: 8px 20px 71px 19px rgba(0,0,0,1);
+
+	border-radius: 77px 25px 38px 38px;
+	-moz-border-radius: 77px 25px 38px 38px;
+	-webkit-border-radius: 77px 25px 38px 38px;
+	border: 11px double #000000;
+}
+#main{
+	padding: 2% 32% 0% 2%; 
+}
+#sidebar{
+	
+}
+#title1 p{
+	border: 20px solid transparent;
+	border-image:url("border1.png") 150 round;
+	padding:;
+	z-index: 1;
+	font-family: "font1";
+	font-size: 20px;
+	position: relative;
+}
+#title1{
+	
+}
+
+
+body{
+	background-image: url("bg1.jpg");
+}
+
+
