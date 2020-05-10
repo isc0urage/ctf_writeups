@@ -21,7 +21,7 @@
 }
 #title1 p{
 	border: 20px solid transparent;
-	border-image:url("border1.png") 150 round;
+	border-image:url("img/border1.png") 150 round;
 	padding:;
 	z-index: 1;
 	font-family: "font1";
