@@ -1,4 +1,16 @@
+#extra1{
+	float:middle;
+	display:none;
+	margin:1%;
+	font-family: 'Shadows Into Light', cursive;
+	font-size:23px;
+	line-height: 90%;
+}
+#btn1:hover #extra1{
+	display:inline-block;
+}
 button {
+  display:inline-block;
   position: relative;
   outline: none;
   text-decoration: none;
