@@ -1,4 +1,13 @@
+#background #pattern{
+	max-width: 400px;
+	max-height: 350px;
+	float:right;
+	overflow: auto;
+
+}
+
 #background{
+	position: relative;
 	background-color: #d1d1d1;
 	margin-left: 13%;
 	margin-right: 13%;
@@ -23,8 +32,7 @@
 	border: 20px solid transparent;
 	border-image:url("img/border1.png") 150 round;
 	padding:;
-	z-index: 1;
-	font-family: "font1";
+	font-family: "Indie Flower", cursive;
 	font-size: 20px;
 	position: relative;
 }
@@ -32,9 +40,20 @@
 	
 }
 
+#introduction h1{
+	font-family: 'Pacifico', cursive;
+}
 
+#writeups h1{
+	font-family: 'Pacifico', cursive;
+}
+p{
+	font-family: 'Shadows Into Light', cursive;
+	font-size:23px;
+	line-height: 90%;
+}
 body{
-	background-image: url("https://freedesignfile.com/upload/2015/05/Black-paper-floral-seamless-pattern-vector.jpg");
+	background-image: url("https://i.ibb.co/hg9sT6y/Black-paper-floral-seamless-pattern-vector.jpg");
 }
 
 
