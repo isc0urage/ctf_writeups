@@ -1,3 +1,2 @@
-# ctf_writeups
-Hallo 
-View this in web form : https://isc0urage.github.io/ctf_writeups/index.html
+# Introduction
+View this repo in web form : https://isc0urage.github.io/ctf_writeups/index.html
