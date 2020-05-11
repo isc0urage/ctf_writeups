@@ -3,7 +3,7 @@
 	<meta charset = "utf-8" />
 	<!-- Hallo, Welcome to my corner of the internet -->
 	<title>isc0urage</title>
-	<link rel="icon" type="image/x-icon" href="img\icon.png">
+	<link rel="icon" type="image/x-icon" href="..\img\icon.png">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&family=Shadows+Into+Light&display=swap" rel="stylesheet">
 </head>
@@ -12,7 +12,13 @@
 		<button>
 			<span><p><b><a href="../index.html">BACK TO MAINPAGE</a></b></p></span>
 		</button>
-			
+		<button class="accordion">placeholder</button>
+		<h1 id="introduction"></h1>
+		<div class="panel">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+			<br><br>
+		</div>
 			
 			
 		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -20,5 +26,21 @@
 	</div>	
 
 
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
 
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
 </body>
+</html>

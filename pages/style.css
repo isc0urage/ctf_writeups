@@ -1,4 +1,40 @@
-button {
+h1{
+	font-size:30px;
+	font-family:"Indie Flower";
+}
+#introduction{
+	font-size:40px;
+	font-family:"Pacifico";
+	margin-left:5%;
+}
+.accordion {
+  background-color: #dbdbdb;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: middle;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  border-style:solid none solid none;
+  border-width:3px;
+  border-color:black;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: #c4c4c4;
+  overflow: hidden;
+}
+
+#home button {
   margin: 30px; 
   position: relative;
   outline: none;
@@ -15,24 +51,24 @@ button {
   background-color: #d1d1d1;
   border: 3px solid black;
 }
-button span {
+#home button span {
   color: black;
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 0.7px;
 }
-button:hover {
+#home button:hover {
   animation: rotate 0.7s ease-in-out both;
 }
-button:hover span {
+#home button:hover span {
   animation: storm 0.7s ease-in-out both;
   animation-delay: 0.06s;
 }
 
-button span p{
+#home button span p{
 	margin-top: 15px;
 }
-button span p a{
+#home button span p a{
 	text-decoration: none;
 	color:black;
 }
